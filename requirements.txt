@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+pandas
+jupyter
+sklearn
+opencv-python
+pillow
+flask
+autopep8

@@ -1,3 +1,9 @@
 py-env
 docs
 .vscode
+old
+
+
+*.jpeg
+*.mp4
+__pycache__
