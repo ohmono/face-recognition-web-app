@@ -1,10 +1,6 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import sklearn
+
 import pickle
 import cv2
-from PIL import Image
 
 # loading models
 haar = cv2.CascadeClassifier('./models/haarcascade_frontalface_default.xml')
