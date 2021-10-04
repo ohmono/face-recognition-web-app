@@ -1,6 +1,8 @@
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request
 import os
 from app.utils import pipeline_model
+from datetime import datetime as dt
+
 UPLOAD_FOLDER = 'static/uploads'
 
 
@@ -19,7 +21,7 @@ def faceapp():
 def gender():
     if request.method == 'POST':
         file = request.files['image']
-        filename = file.filename
+        filename = str(dt.now()).replace(' ', '-').replace(':', '-')+'_'+file.filename
         path = os.path.join(UPLOAD_FOLDER, filename)
         file.save(path)
         # prediction // pipeline model
