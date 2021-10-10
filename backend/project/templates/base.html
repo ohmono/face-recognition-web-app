@@ -37,7 +37,7 @@
                 <div class="container-fluid">
                     <a class="navbar-brand" href="{{url_for('index')}}">
                         <img src="{{url_for('static', filename='images/logo_large.png')}}" alt="logo_large"
-                            height="30px">FaceApp
+                            height="30px">
                     </a>
 
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
@@ -48,8 +48,7 @@
 
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <div class="navbar-nav w-100 justify-content-center">
-                            <a class="nav-link active" aria-current="page" href="{{url_for('index')}}">Inicio</a>
-                            <a class="nav-link" href="{{url_for('faceapp')}}">Aplicacion</a>
+                            <a class="btn btn-default" href="{{url_for('faceapp')}}">Aplicacion</a>
 
 
                         </div>
@@ -68,7 +67,7 @@
 
     <!-- Footer -->
 
-    <footer class="bg-light text-center text-lg-start " style="background-color:gray" ;>
+    <footer class="bg-light text-center text-lg-start " style="background-color:gray; pos">
         <div class="container">
             <img src="{{url_for('static', filename='images/logo_small.png')}}" alt="logo_small" height="45px"
                 style="position: relative">

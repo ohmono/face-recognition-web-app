@@ -1,0 +1,14 @@
+py-env
+docs
+.vscode
+old
+
+
+*.jpeg
+*.mp4
+__pycache__
+.
+
+2021*
+
+ptu.py
