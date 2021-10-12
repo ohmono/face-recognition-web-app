@@ -157,8 +157,8 @@ export default {
       ],
       tools2: [
         {
-          name: "Flask",
-          logo: "flask.svg",
+          name: "FastAPI",
+          logo: "fastapi.svg",
           type: "Framework de Python",
         },
         {

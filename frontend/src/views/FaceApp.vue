@@ -10,6 +10,13 @@
         <v-col cols="12" sm="2" class="animate__animated animate__fadeInLeft">
           <v-sheet rounded="lg" min-height="268">
             <!--  -->
+
+            <v-col class="white text-h5 text-center text--darken-5 elevation-10"
+              >Imágenes validas </v-col
+            ><v-img src="../assets/img/ej1.png" contain class="pa-2"></v-img>
+            <v-img src="../assets/img/ej2.jpg" contain class="pa-2"></v-img>
+            <v-img src="../assets/img/ej3.png" contain class="pa-2"></v-img>
+            <v-img src="../assets/img/ej4.jpg" contain class="pa-2"></v-img>
           </v-sheet>
         </v-col>
 
@@ -45,6 +52,13 @@
         <v-col cols="12" sm="2" class="animate__animated animate__fadeInRight">
           <v-sheet rounded="lg" min-height="268">
             <!--  -->
+            <v-col class="white text-h5 text-center text--darken-5 elevation-10"
+              >Imágenes invalidas
+            </v-col>
+            <v-img src="../assets/img/ej5.jpg" contain class="pa-2"></v-img>
+            <v-img src="../assets/img/ej6.jpg" contain class="pa-2"></v-img>
+            <v-img src="../assets/img/ej7.jpg" contain class="pa-2"></v-img>
+            <v-img src="../assets/img/ej8.jpg" contain class="pa-2"></v-img>
           </v-sheet>
         </v-col>
       </v-row>
