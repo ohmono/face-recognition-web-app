@@ -7,7 +7,12 @@
     <v-card-subtitle> El Mono </v-card-subtitle>
 
     <v-card-actions>
-      <v-btn color="red darken-4" text>
+      <v-btn
+        color="red darken-4"
+        text
+        href="https://github.com/ohmono"
+        target="_blank"
+      >
         <v-icon>mdi-github</v-icon>GITHUB
       </v-btn>
 
