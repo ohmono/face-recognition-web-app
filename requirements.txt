@@ -1,11 +1,12 @@
+fastapi
+uvicorn
+aiofiles
+python-multipart
+autopep8
 numpy
 scipy
 matplotlib
 pandas
-jupyter
 scikit-learn
 opencv-python
 pillow
-flask
-autopep8
-cvzone

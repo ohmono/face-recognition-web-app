@@ -27,7 +27,7 @@ export default {
     links: [
       {
         name: "Aplication",
-        path: "/app",
+        path: "/face-app",
         icon: "mdi-account-reactivate",
       },
       { name: "About", path: "/about", icon: "mdi-information" },
